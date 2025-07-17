@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "YuvamHazir.Application/1.0.0": {
+        "dependencies": {
+          "YuvamHazir.Domain": "1.0.0"
+        },
+        "runtime": {
+          "YuvamHazir.Application.dll": {}
+        }
+      },
+      "YuvamHazir.Domain/1.0.0": {
+        "runtime": {
+          "YuvamHazir.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "YuvamHazir.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YuvamHazir.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
