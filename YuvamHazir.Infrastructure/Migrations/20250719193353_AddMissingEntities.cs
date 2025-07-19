@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace YuvamHazir.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class AddMissingEntities : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Badge",
+                name: "Badges",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -23,11 +23,11 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Badge", x => x.Id);
+                    table.PrimaryKey("PK_Badges", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Category",
+                name: "Categories",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -36,11 +36,11 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Category", x => x.Id);
+                    table.PrimaryKey("PK_Categories", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "QuestionCategory",
+                name: "QuestionCategories",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -49,7 +49,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_QuestionCategory", x => x.Id);
+                    table.PrimaryKey("PK_QuestionCategories", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -73,7 +73,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Product",
+                name: "Products",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -87,17 +87,17 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Product", x => x.Id);
+                    table.PrimaryKey("PK_Products", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Product_Category_CategoryId",
+                        name: "FK_Products_Categories_CategoryId",
                         column: x => x.CategoryId,
-                        principalTable: "Category",
+                        principalTable: "Categories",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Address",
+                name: "Addresses",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -108,9 +108,9 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Address", x => x.Id);
+                    table.PrimaryKey("PK_Addresses", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Address_Users_UserId",
+                        name: "FK_Addresses_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -118,7 +118,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Blog",
+                name: "Blogs",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -131,9 +131,9 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Blog", x => x.Id);
+                    table.PrimaryKey("PK_Blogs", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Blog_Users_AuthorId",
+                        name: "FK_Blogs_Users_AuthorId",
                         column: x => x.AuthorId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -141,7 +141,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Cart",
+                name: "Carts",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -152,9 +152,9 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Cart", x => x.Id);
+                    table.PrimaryKey("PK_Carts", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Cart_Users_UserId",
+                        name: "FK_Carts_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -162,7 +162,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "ForumPost",
+                name: "ForumPosts",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -174,9 +174,9 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ForumPost", x => x.Id);
+                    table.PrimaryKey("PK_ForumPosts", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_ForumPost_Users_UserId",
+                        name: "FK_ForumPosts_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -184,7 +184,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "FosterRequest",
+                name: "FosterRequests",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -196,9 +196,9 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_FosterRequest", x => x.Id);
+                    table.PrimaryKey("PK_FosterRequests", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_FosterRequest_Users_UserId",
+                        name: "FK_FosterRequests_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -206,7 +206,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Message",
+                name: "Messages",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -218,15 +218,15 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Message", x => x.Id);
+                    table.PrimaryKey("PK_Messages", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Message_Users_ReceiverId",
+                        name: "FK_Messages_Users_ReceiverId",
                         column: x => x.ReceiverId,
                         principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Message_Users_SenderId",
+                        name: "FK_Messages_Users_SenderId",
                         column: x => x.SenderId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -234,7 +234,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Notification",
+                name: "Notifications",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -247,9 +247,9 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Notification", x => x.Id);
+                    table.PrimaryKey("PK_Notifications", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Notification_Users_UserId",
+                        name: "FK_Notifications_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -257,7 +257,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "PatiPoint",
+                name: "PatiPoints",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -269,9 +269,9 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_PatiPoint", x => x.Id);
+                    table.PrimaryKey("PK_PatiPoints", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_PatiPoint_Users_UserId",
+                        name: "FK_PatiPoints_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -304,7 +304,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Question",
+                name: "Questions",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -317,15 +317,15 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Question", x => x.Id);
+                    table.PrimaryKey("PK_Questions", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Question_QuestionCategory_CategoryId",
+                        name: "FK_Questions_QuestionCategories_CategoryId",
                         column: x => x.CategoryId,
-                        principalTable: "QuestionCategory",
+                        principalTable: "QuestionCategories",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Question_Users_UserId",
+                        name: "FK_Questions_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -344,9 +344,9 @@ namespace YuvamHazir.Infrastructure.Migrations
                 {
                     table.PrimaryKey("PK_UserBadges", x => new { x.UserId, x.BadgeId });
                     table.ForeignKey(
-                        name: "FK_UserBadges_Badge_BadgeId",
+                        name: "FK_UserBadges_Badges_BadgeId",
                         column: x => x.BadgeId,
-                        principalTable: "Badge",
+                        principalTable: "Badges",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -358,7 +358,36 @@ namespace YuvamHazir.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Order",
+                name: "ProductRatings",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserId = table.Column<int>(type: "int", nullable: false),
+                    ProductId = table.Column<int>(type: "int", nullable: false),
+                    Rating = table.Column<int>(type: "int", nullable: false),
+                    Comment = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ProductRatings", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_ProductRatings_Products_ProductId",
+                        column: x => x.ProductId,
+                        principalTable: "Products",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_ProductRatings_Users_UserId",
+                        column: x => x.UserId,
+                        principalTable: "Users",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Orders",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -370,15 +399,15 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Order", x => x.Id);
+                    table.PrimaryKey("PK_Orders", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Order_Address_AddressId",
+                        name: "FK_Orders_Addresses_AddressId",
                         column: x => x.AddressId,
-                        principalTable: "Address",
+                        principalTable: "Addresses",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Order_Users_UserId",
+                        name: "FK_Orders_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -386,7 +415,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "BlogComment",
+                name: "BlogComments",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -398,15 +427,15 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_BlogComment", x => x.Id);
+                    table.PrimaryKey("PK_BlogComments", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_BlogComment_Blog_BlogId",
+                        name: "FK_BlogComments_Blogs_BlogId",
                         column: x => x.BlogId,
-                        principalTable: "Blog",
+                        principalTable: "Blogs",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_BlogComment_Users_UserId",
+                        name: "FK_BlogComments_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -414,7 +443,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "CartItem",
+                name: "CartItems",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -428,23 +457,23 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_CartItem", x => x.Id);
+                    table.PrimaryKey("PK_CartItems", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_CartItem_Cart_CartId",
+                        name: "FK_CartItems_Carts_CartId",
                         column: x => x.CartId,
-                        principalTable: "Cart",
+                        principalTable: "Carts",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_CartItem_Product_ProductId",
+                        name: "FK_CartItems_Products_ProductId",
                         column: x => x.ProductId,
-                        principalTable: "Product",
+                        principalTable: "Products",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "ForumComment",
+                name: "ForumComments",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -456,15 +485,15 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ForumComment", x => x.Id);
+                    table.PrimaryKey("PK_ForumComments", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_ForumComment_ForumPost_PostId",
+                        name: "FK_ForumComments_ForumPosts_PostId",
                         column: x => x.PostId,
-                        principalTable: "ForumPost",
+                        principalTable: "ForumPosts",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_ForumComment_Users_UserId",
+                        name: "FK_ForumComments_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -472,7 +501,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Adoption",
+                name: "Adoptions",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -486,34 +515,34 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Adoption", x => x.Id);
+                    table.PrimaryKey("PK_Adoptions", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Adoption_Pets_PetId",
+                        name: "FK_Adoptions_Pets_PetId",
                         column: x => x.PetId,
                         principalTable: "Pets",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Adoption_Users_NewOwnerId",
+                        name: "FK_Adoptions_Users_NewOwnerId",
                         column: x => x.NewOwnerId,
                         principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Adoption_Users_OwnerId",
+                        name: "FK_Adoptions_Users_OwnerId",
                         column: x => x.OwnerId,
                         principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Adoption_Users_UserId",
+                        name: "FK_Adoptions_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
-                name: "Match",
+                name: "Matches",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -525,15 +554,15 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Match", x => x.Id);
+                    table.PrimaryKey("PK_Matches", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Match_Pets_PetId",
+                        name: "FK_Matches_Pets_PetId",
                         column: x => x.PetId,
                         principalTable: "Pets",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Match_Users_UserId",
+                        name: "FK_Matches_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -541,7 +570,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Answer",
+                name: "Answers",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -553,15 +582,15 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Answer", x => x.Id);
+                    table.PrimaryKey("PK_Answers", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Answer_Question_QuestionId",
+                        name: "FK_Answers_Questions_QuestionId",
                         column: x => x.QuestionId,
-                        principalTable: "Question",
+                        principalTable: "Questions",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Answer_Users_UserId",
+                        name: "FK_Answers_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -569,7 +598,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "OrderDetail",
+                name: "OrderDetails",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -581,155 +610,183 @@ namespace YuvamHazir.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_OrderDetail", x => x.Id);
+                    table.PrimaryKey("PK_OrderDetails", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_OrderDetail_Order_OrderId",
+                        name: "FK_OrderDetails_Orders_OrderId",
                         column: x => x.OrderId,
-                        principalTable: "Order",
+                        principalTable: "Orders",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_OrderDetail_Product_ProductId",
+                        name: "FK_OrderDetails_Products_ProductId",
                         column: x => x.ProductId,
-                        principalTable: "Product",
+                        principalTable: "Products",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "AdoptionContracts",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    AdoptionId = table.Column<int>(type: "int", nullable: false),
+                    FileUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IsSignedByOwner = table.Column<bool>(type: "bit", nullable: false),
+                    IsSignedByNewOwner = table.Column<bool>(type: "bit", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_AdoptionContracts", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_AdoptionContracts_Adoptions_AdoptionId",
+                        column: x => x.AdoptionId,
+                        principalTable: "Adoptions",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Address_UserId",
-                table: "Address",
+                name: "IX_Addresses_UserId",
+                table: "Addresses",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Adoption_NewOwnerId",
-                table: "Adoption",
+                name: "IX_AdoptionContracts_AdoptionId",
+                table: "AdoptionContracts",
+                column: "AdoptionId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Adoptions_NewOwnerId",
+                table: "Adoptions",
                 column: "NewOwnerId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Adoption_OwnerId",
-                table: "Adoption",
+                name: "IX_Adoptions_OwnerId",
+                table: "Adoptions",
                 column: "OwnerId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Adoption_PetId",
-                table: "Adoption",
+                name: "IX_Adoptions_PetId",
+                table: "Adoptions",
                 column: "PetId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Adoption_UserId",
-                table: "Adoption",
+                name: "IX_Adoptions_UserId",
+                table: "Adoptions",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Answer_QuestionId",
-                table: "Answer",
+                name: "IX_Answers_QuestionId",
+                table: "Answers",
                 column: "QuestionId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Answer_UserId",
-                table: "Answer",
+                name: "IX_Answers_UserId",
+                table: "Answers",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Blog_AuthorId",
-                table: "Blog",
-                column: "AuthorId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_BlogComment_BlogId",
-                table: "BlogComment",
+                name: "IX_BlogComments_BlogId",
+                table: "BlogComments",
                 column: "BlogId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_BlogComment_UserId",
-                table: "BlogComment",
+                name: "IX_BlogComments_UserId",
+                table: "BlogComments",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Cart_UserId",
-                table: "Cart",
+                name: "IX_Blogs_AuthorId",
+                table: "Blogs",
+                column: "AuthorId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_CartItems_CartId",
+                table: "CartItems",
+                column: "CartId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_CartItems_ProductId",
+                table: "CartItems",
+                column: "ProductId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Carts_UserId",
+                table: "Carts",
                 column: "UserId",
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_CartItem_CartId",
-                table: "CartItem",
-                column: "CartId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_CartItem_ProductId",
-                table: "CartItem",
-                column: "ProductId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_ForumComment_PostId",
-                table: "ForumComment",
+                name: "IX_ForumComments_PostId",
+                table: "ForumComments",
                 column: "PostId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ForumComment_UserId",
-                table: "ForumComment",
+                name: "IX_ForumComments_UserId",
+                table: "ForumComments",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ForumPost_UserId",
-                table: "ForumPost",
+                name: "IX_ForumPosts_UserId",
+                table: "ForumPosts",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_FosterRequest_UserId",
-                table: "FosterRequest",
+                name: "IX_FosterRequests_UserId",
+                table: "FosterRequests",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Match_PetId",
-                table: "Match",
+                name: "IX_Matches_PetId",
+                table: "Matches",
                 column: "PetId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Match_UserId",
-                table: "Match",
+                name: "IX_Matches_UserId",
+                table: "Matches",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Message_ReceiverId",
-                table: "Message",
+                name: "IX_Messages_ReceiverId",
+                table: "Messages",
                 column: "ReceiverId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Message_SenderId",
-                table: "Message",
+                name: "IX_Messages_SenderId",
+                table: "Messages",
                 column: "SenderId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Notification_UserId",
-                table: "Notification",
+                name: "IX_Notifications_UserId",
+                table: "Notifications",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Order_AddressId",
-                table: "Order",
-                column: "AddressId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Order_UserId",
-                table: "Order",
-                column: "UserId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_OrderDetail_OrderId",
-                table: "OrderDetail",
+                name: "IX_OrderDetails_OrderId",
+                table: "OrderDetails",
                 column: "OrderId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_OrderDetail_ProductId",
-                table: "OrderDetail",
+                name: "IX_OrderDetails_ProductId",
+                table: "OrderDetails",
                 column: "ProductId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_PatiPoint_UserId",
-                table: "PatiPoint",
+                name: "IX_Orders_AddressId",
+                table: "Orders",
+                column: "AddressId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Orders_UserId",
+                table: "Orders",
+                column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_PatiPoints_UserId",
+                table: "PatiPoints",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
@@ -738,18 +795,28 @@ namespace YuvamHazir.Infrastructure.Migrations
                 column: "OwnerId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Product_CategoryId",
-                table: "Product",
+                name: "IX_ProductRatings_ProductId",
+                table: "ProductRatings",
+                column: "ProductId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ProductRatings_UserId",
+                table: "ProductRatings",
+                column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Products_CategoryId",
+                table: "Products",
                 column: "CategoryId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Question_CategoryId",
-                table: "Question",
+                name: "IX_Questions_CategoryId",
+                table: "Questions",
                 column: "CategoryId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Question_UserId",
-                table: "Question",
+                name: "IX_Questions_UserId",
+                table: "Questions",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
@@ -762,73 +829,79 @@ namespace YuvamHazir.Infrastructure.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Adoption");
+                name: "AdoptionContracts");
 
             migrationBuilder.DropTable(
-                name: "Answer");
+                name: "Answers");
 
             migrationBuilder.DropTable(
-                name: "BlogComment");
+                name: "BlogComments");
 
             migrationBuilder.DropTable(
-                name: "CartItem");
+                name: "CartItems");
 
             migrationBuilder.DropTable(
-                name: "ForumComment");
+                name: "ForumComments");
 
             migrationBuilder.DropTable(
-                name: "FosterRequest");
+                name: "FosterRequests");
 
             migrationBuilder.DropTable(
-                name: "Match");
+                name: "Matches");
 
             migrationBuilder.DropTable(
-                name: "Message");
+                name: "Messages");
 
             migrationBuilder.DropTable(
-                name: "Notification");
+                name: "Notifications");
 
             migrationBuilder.DropTable(
-                name: "OrderDetail");
+                name: "OrderDetails");
 
             migrationBuilder.DropTable(
-                name: "PatiPoint");
+                name: "PatiPoints");
+
+            migrationBuilder.DropTable(
+                name: "ProductRatings");
 
             migrationBuilder.DropTable(
                 name: "UserBadges");
 
             migrationBuilder.DropTable(
-                name: "Question");
+                name: "Adoptions");
 
             migrationBuilder.DropTable(
-                name: "Blog");
+                name: "Questions");
 
             migrationBuilder.DropTable(
-                name: "Cart");
+                name: "Blogs");
 
             migrationBuilder.DropTable(
-                name: "ForumPost");
+                name: "Carts");
+
+            migrationBuilder.DropTable(
+                name: "ForumPosts");
+
+            migrationBuilder.DropTable(
+                name: "Orders");
+
+            migrationBuilder.DropTable(
+                name: "Products");
+
+            migrationBuilder.DropTable(
+                name: "Badges");
 
             migrationBuilder.DropTable(
                 name: "Pets");
 
             migrationBuilder.DropTable(
-                name: "Order");
+                name: "QuestionCategories");
 
             migrationBuilder.DropTable(
-                name: "Product");
+                name: "Addresses");
 
             migrationBuilder.DropTable(
-                name: "Badge");
-
-            migrationBuilder.DropTable(
-                name: "QuestionCategory");
-
-            migrationBuilder.DropTable(
-                name: "Address");
-
-            migrationBuilder.DropTable(
-                name: "Category");
+                name: "Categories");
 
             migrationBuilder.DropTable(
                 name: "Users");

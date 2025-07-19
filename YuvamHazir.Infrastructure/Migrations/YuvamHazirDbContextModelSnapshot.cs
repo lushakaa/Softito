@@ -45,7 +45,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Address");
+                    b.ToTable("Addresses");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.Adoption", b =>
@@ -85,7 +85,38 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Adoption");
+                    b.ToTable("Adoptions");
+                });
+
+            modelBuilder.Entity("YuvamHazir.Domain.Entities.AdoptionContract", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AdoptionId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("FileUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsSignedByNewOwner")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsSignedByOwner")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AdoptionId");
+
+                    b.ToTable("AdoptionContracts");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.Answer", b =>
@@ -115,7 +146,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Answer");
+                    b.ToTable("Answers");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.Badge", b =>
@@ -140,7 +171,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Badge");
+                    b.ToTable("Badges");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.Blog", b =>
@@ -173,7 +204,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("AuthorId");
 
-                    b.ToTable("Blog");
+                    b.ToTable("Blogs");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.BlogComment", b =>
@@ -203,7 +234,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("BlogComment");
+                    b.ToTable("BlogComments");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.Cart", b =>
@@ -228,7 +259,7 @@ namespace YuvamHazir.Infrastructure.Migrations
                     b.HasIndex("UserId")
                         .IsUnique();
 
-                    b.ToTable("Cart");
+                    b.ToTable("Carts");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.CartItem", b =>
@@ -263,7 +294,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("CartItem");
+                    b.ToTable("CartItems");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.Category", b =>
@@ -280,7 +311,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Category");
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.ForumComment", b =>
@@ -310,7 +341,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("ForumComment");
+                    b.ToTable("ForumComments");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.ForumPost", b =>
@@ -339,7 +370,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("ForumPost");
+                    b.ToTable("ForumPosts");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.FosterRequest", b =>
@@ -367,7 +398,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("FosterRequest");
+                    b.ToTable("FosterRequests");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.Match", b =>
@@ -396,7 +427,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Match");
+                    b.ToTable("Matches");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.Message", b =>
@@ -426,7 +457,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("SenderId");
 
-                    b.ToTable("Message");
+                    b.ToTable("Messages");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.Notification", b =>
@@ -458,7 +489,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Notification");
+                    b.ToTable("Notifications");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.Order", b =>
@@ -487,7 +518,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Order");
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.OrderDetail", b =>
@@ -516,7 +547,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("OrderDetail");
+                    b.ToTable("OrderDetails");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.PatiPoint", b =>
@@ -544,7 +575,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("PatiPoint");
+                    b.ToTable("PatiPoints");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.Pet", b =>
@@ -621,7 +652,39 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Product");
+                    b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("YuvamHazir.Domain.Entities.ProductRating", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Comment")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Rating")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("ProductRatings");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.Question", b =>
@@ -655,7 +718,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Question");
+                    b.ToTable("Questions");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.QuestionCategory", b =>
@@ -672,7 +735,7 @@ namespace YuvamHazir.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("QuestionCategory");
+                    b.ToTable("QuestionCategories");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.User", b =>
@@ -775,6 +838,17 @@ namespace YuvamHazir.Infrastructure.Migrations
                     b.Navigation("Owner");
 
                     b.Navigation("Pet");
+                });
+
+            modelBuilder.Entity("YuvamHazir.Domain.Entities.AdoptionContract", b =>
+                {
+                    b.HasOne("YuvamHazir.Domain.Entities.Adoption", "Adoption")
+                        .WithMany()
+                        .HasForeignKey("AdoptionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Adoption");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.Answer", b =>
@@ -1015,6 +1089,25 @@ namespace YuvamHazir.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("YuvamHazir.Domain.Entities.ProductRating", b =>
+                {
+                    b.HasOne("YuvamHazir.Domain.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("YuvamHazir.Domain.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("YuvamHazir.Domain.Entities.Question", b =>
