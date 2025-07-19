@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YuvamHazir.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b3b4f59f46e2c60af883c29d9a851e4bd6b5633")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e6d417e0e7128333f13151fc65557ea662b8d61")]
 [assembly: System.Reflection.AssemblyProductAttribute("YuvamHazir.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YuvamHazir.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

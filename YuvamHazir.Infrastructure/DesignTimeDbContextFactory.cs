@@ -10,7 +10,10 @@ namespace YuvamHazir.Infrastructure
         {
             var optionsBuilder = new DbContextOptionsBuilder<YuvamHazirDbContext>();
             // Buraya kendi bağlantı stringinizi yazın
-            optionsBuilder.UseSqlServer("Server=localhost;Database=YuvamHazirDb;User Id=SA;Password=reallyStrongPwd123;TrustServerCertificate=True;");
+           // optionsBuilder.UseSqlServer("Server=localhost;Database=YuvamHazirDb;User Id=SA;Password=reallyStrongPwd123;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=HARUN;Database=YuvamHazirDb;Trusted_Connection=True;TrustServerCertificate=True;");
+
+
             return new YuvamHazirDbContext(optionsBuilder.Options);
         }
     }
