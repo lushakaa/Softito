@@ -20,7 +20,23 @@ namespace YuvamHazir.Infrastructure.Context
         public DbSet<Address> Addresses { get; set; }
         public DbSet<Cart> Carts { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
-        // public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<AdoptionContract> AdoptionContracts { get; set; }
+        public DbSet<ProductRating> ProductRatings { get; set; }
+        public DbSet<FosterRequest> FosterRequests { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
+        public DbSet<Question> Questions { get; set; }
+        public DbSet<Answer> Answers { get; set; }
+        public DbSet<Match> Matches { get; set; }
+        public DbSet<ForumPost> ForumPosts { get; set; }
+        public DbSet<ForumComment> ForumComments { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+        public DbSet<BlogComment> BlogComments { get; set; }
+        public DbSet<Adoption> Adoptions { get; set; }
+        public DbSet<Message> Messages { get; set; }
+        public DbSet<PatiPoint> PatiPoints { get; set; }
+        public DbSet<QuestionCategory> QuestionCategories { get; set; }
+        public DbSet<Badge> Badges { get; set; }
+        
 
         // Diğer DbSet'ler buraya eklenebilir
 

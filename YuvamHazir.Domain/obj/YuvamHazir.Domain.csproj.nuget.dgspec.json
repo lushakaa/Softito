@@ -1,31 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.Domain\\YuvamHazir.Domain.csproj": {}
+    "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.Domain\\YuvamHazir.Domain.csproj": {
+    "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.Domain\\YuvamHazir.Domain.csproj",
+        "projectUniqueName": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj",
         "projectName": "YuvamHazir.Domain",
-        "projectPath": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.Domain\\YuvamHazir.Domain.csproj",
-        "packagesPath": "C:\\Users\\hcakk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.Domain\\obj\\",
+        "projectPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj",
+        "packagesPath": "/Users/hilalcakmak/.nuget/packages/",
+        "outputPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hcakk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/hilalcakmak/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net7.0": {
@@ -65,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }
