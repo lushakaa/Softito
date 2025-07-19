@@ -17,7 +17,10 @@ namespace YuvamHazir.Infrastructure.Context
         public DbSet<Category> Categories { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Order> Orders { get; set; }
-       // public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<Address> Addresses { get; set; }
+        public DbSet<Cart> Carts { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
+        // public DbSet<OrderDetail> OrderDetails { get; set; }
 
         // Diğer DbSet'ler buraya eklenebilir
 

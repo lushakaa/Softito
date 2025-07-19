@@ -29,7 +29,4 @@
   <ItemGroup>
     <None Remove="DTOs\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DTOs\" />
-  </ItemGroup>
 </Project>
