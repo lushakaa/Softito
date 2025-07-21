@@ -46,7 +46,7 @@ namespace YuvamHazir.API.Controllers
         }
 
         // POST: api/pet
-        [Authorize(Roles = "Admin")]
+        //aaaa
         [HttpPost]
 public async Task<IActionResult> AddPet([FromBody] PetCreateDto petDto)
 {

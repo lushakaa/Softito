@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/a1-18/.nuget/packages/": {}
+    "/Users/a1-17/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj",
+      "projectUniqueName": "/Users/a1-17/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj",
       "projectName": "YuvamHazir.Domain",
-      "projectPath": "/Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj",
-      "packagesPath": "/Users/a1-18/.nuget/packages/",
-      "outputPath": "/Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Domain/obj/",
+      "projectPath": "/Users/a1-17/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj",
+      "packagesPath": "/Users/a1-17/.nuget/packages/",
+      "outputPath": "/Users/a1-17/Desktop/Softito/YuvamHazir.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/a1-18/.nuget/NuGet/NuGet.Config"
+        "/Users/a1-17/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

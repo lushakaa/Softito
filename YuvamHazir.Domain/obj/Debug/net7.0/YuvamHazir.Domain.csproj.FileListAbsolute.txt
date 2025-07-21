@@ -58,3 +58,15 @@ C:/Users/hcakk/Desktop/Projeler/Softito/YuvamHazir.Domain/obj/Debug/net7.0/ref/Y
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.pdb
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/ref/YuvamHazir.Domain.dll
 /Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.sourcelink.json
+/Users/a1-17/Desktop/Softito/YuvamHazir.Domain/bin/Debug/net7.0/YuvamHazir.Domain.deps.json
+/Users/a1-17/Desktop/Softito/YuvamHazir.Domain/bin/Debug/net7.0/YuvamHazir.Domain.dll
+/Users/a1-17/Desktop/Softito/YuvamHazir.Domain/bin/Debug/net7.0/YuvamHazir.Domain.pdb
+/Users/a1-17/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/a1-17/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.AssemblyInfoInputs.cache
+/Users/a1-17/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.AssemblyInfo.cs
+/Users/a1-17/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.csproj.CoreCompileInputs.cache
+/Users/a1-17/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.sourcelink.json
+/Users/a1-17/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.dll
+/Users/a1-17/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/refint/YuvamHazir.Domain.dll
+/Users/a1-17/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.pdb
+/Users/a1-17/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/ref/YuvamHazir.Domain.dll
