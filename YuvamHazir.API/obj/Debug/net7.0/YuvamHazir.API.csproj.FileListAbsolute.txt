@@ -587,4 +587,5 @@ C:/Users/hcakk/Desktop/Projeler/Softito/YuvamHazir.API/obj/Debug/net7.0/ref/Yuva
 /Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.API/obj/Debug/net7.0/YuvamHazir.API.pdb
 /Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.API/obj/Debug/net7.0/YuvamHazir.API.genruntimeconfig.cache
 /Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.API/obj/Debug/net7.0/ref/YuvamHazir.API.dll
-/Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.API/obj/Debug/net7.0/YuvamHazir.API.csproj.CopyComplete
+/Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.API/obj/Debug/net7.0/YuvamHazir.API.sourcelink.json
+/Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.API/obj/Debug/net7.0/YuvamHaz.EBFDF042.Up2Date

@@ -12,7 +12,10 @@ namespace YuvamHazir.API.DTOs
             public int Stock { get; set; }
             public string CategoryName { get; set; }
             public string Description { get; set; }
+
+            public double? AverageRating { get; set; } // <-- Bunu ekle
         }
+
 
         // Ürün detay
         public class ProductDetailDto
@@ -25,6 +28,8 @@ namespace YuvamHazir.API.DTOs
             public int Stock { get; set; }
             public int CategoryId { get; set; }
             public string CategoryName { get; set; }
+            public double? AverageRating { get; set; } // YENİ!
+            public List<ProductRatingDto> Ratings { get; set; } // İstersen son 3 yorumu da gösterebilirsin
         }
 
         // Ürün ekleme/güncelleme

@@ -22,18 +22,33 @@ namespace YuvamHazir.API.Controllers
         [HttpGet]
         public async Task<ActionResult<List<ProductListDto>>> GetProducts()
         {
-            var products = await _context.Products.Include(p => p.Category).ToListAsync();
+            var products = await _context.Products
+                .Include(p => p.Category)
+                .ToListAsync();
+
+            // Tüm rating'leri grup halinde al
+            var ratings = await _context.Set<ProductRating>()
+                .GroupBy(r => r.ProductId)
+                .Select(g => new
+                {
+                    ProductId = g.Key,
+                    Average = g.Average(r => r.Rating)
+                }).ToListAsync();
+
             var dtoList = products.Select(p => new ProductListDto
             {
                 Id = p.Id,
                 Name = p.Name,
                 Price = p.Price,
                 Stock = p.Stock,
-                CategoryName = p.Category?.Name
+                CategoryName = p.Category?.Name,
+                Description = p.Description,
+                AverageRating = ratings.FirstOrDefault(r => r.ProductId == p.Id)?.Average
             }).ToList();
 
             return Ok(dtoList);
         }
+
 
         // Ürün detay
         [HttpGet("{id}")]
@@ -45,6 +60,11 @@ namespace YuvamHazir.API.Controllers
             if (product == null)
                 return NotFound();
 
+            // Ürün için ortalama rating hesapla
+            var averageRating = await _context.Set<ProductRating>()
+                .Where(r => r.ProductId == id)
+                .AverageAsync(r => (double?)r.Rating);
+
             var dto = new ProductDetailDto
             {
                 Id = product.Id,
@@ -54,7 +74,8 @@ namespace YuvamHazir.API.Controllers
                 Price = product.Price,
                 Stock = product.Stock,
                 CategoryId = product.CategoryId,
-                CategoryName = product.Category?.Name
+                CategoryName = product.Category?.Name,
+                AverageRating = averageRating // Ortalama rating ekledik
             };
 
             return Ok(dto);

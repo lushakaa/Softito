@@ -668,12 +668,18 @@
           "YuvamHazir.Domain": "1.0.0"
         },
         "runtime": {
-          "YuvamHazir.Application.dll": {}
+          "YuvamHazir.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "YuvamHazir.Domain/1.0.0": {
         "runtime": {
-          "YuvamHazir.Domain.dll": {}
+          "YuvamHazir.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "YuvamHazir.Infrastructure/1.0.0": {
@@ -683,7 +689,10 @@
           "YuvamHazir.Domain": "1.0.0"
         },
         "runtime": {
-          "YuvamHazir.Infrastructure.dll": {}
+          "YuvamHazir.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
