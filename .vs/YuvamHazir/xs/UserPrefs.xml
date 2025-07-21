@@ -1,27 +1,39 @@
 ﻿<Properties StartupConfiguration="{FF9A8EC4-DF7C-40F6-8833-E5A730A292C9}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.YuvamHazir PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="YuvamHazir.Domain/Entities/Pet.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="YuvamHazir.API/Program.cs">
     <Files>
-      <File FileName="YuvamHazir.Domain/Entities/Pet.cs" Line="1" Column="1" />
+      <File FileName="YuvamHazir.Domain/Entities/Pet.cs" />
+      <File FileName="YuvamHazir.API/appsettings.json" />
+      <File FileName="YuvamHazir.Domain/Entities/User.cs" />
+      <File FileName="YuvamHazir.API/Controllers/PetController.cs" />
+      <File FileName="YuvamHazir.Infrastructure/DesignTimeDbContextFactory.cs" />
+      <File FileName="YuvamHazir.Domain/Entities/ProductRating.cs" />
+      <File FileName="YuvamHazir.Domain/Entities/Product.cs" />
+      <File FileName="YuvamHazir.API/DTOs/ProductRatingDto.cs" />
+      <File FileName="YuvamHazir.API/DTOs/ProductDto.cs" />
+      <File FileName="YuvamHazir.API/Controllers/ProductController.cs" />
+      <File FileName="YuvamHazir.API/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="YuvamHazir">
+          <Node name="YuvamHazir" expanded="True">
+            <Node name="YuvamHazir.API" selected="True" />
             <Node name="YuvamHazir.Domain">
-              <Node name="Entities" expanded="True">
-                <Node name="Pet.cs" selected="True" />
-              </Node>
+              <Node name="Entities" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.YuvamHazir PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
