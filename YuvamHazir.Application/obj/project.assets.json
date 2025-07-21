@@ -27,33 +27,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/hilalcakmak/.nuget/packages/": {}
+    "/Users/a1-18/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/YuvamHazir.Application.csproj",
+      "projectUniqueName": "/Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Application/YuvamHazir.Application.csproj",
       "projectName": "YuvamHazir.Application",
-      "projectPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/YuvamHazir.Application.csproj",
-      "packagesPath": "/Users/hilalcakmak/.nuget/packages/",
-      "outputPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/obj/",
+      "projectPath": "/Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Application/YuvamHazir.Application.csproj",
+      "packagesPath": "/Users/a1-18/.nuget/packages/",
+      "outputPath": "/Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/hilalcakmak/.nuget/NuGet/NuGet.Config"
+        "/Users/a1-18/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj": {
-              "projectPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj"
+            "/Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj": {
+              "projectPath": "/Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj"
             }
           }
         }
@@ -62,13 +61,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net7.0": {
@@ -89,7 +82,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
       }
     }
   }

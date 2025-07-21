@@ -49,7 +49,6 @@
 /Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Infrastructure/obj/Debug/net7.0/YuvamHazir.Infrastructure.pdb
 /Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Infrastructure/obj/Debug/net7.0/YuvamHazir.Infrastructure.genruntimeconfig.cache
 /Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Infrastructure/obj/Debug/net7.0/ref/YuvamHazir.Infrastructure.dll
-/Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Infrastructure/obj/Debug/net7.0/YuvamHazir.Infrastructure.csproj.CopyComplete
 C:/Users/hcakk/Desktop/Projeler/Softito/YuvamHazir.Infrastructure/bin/Debug/net7.0/YuvamHazir.Infrastructure.deps.json
 C:/Users/hcakk/Desktop/Projeler/Softito/YuvamHazir.Infrastructure/bin/Debug/net7.0/YuvamHazir.Infrastructure.runtimeconfig.json
 C:/Users/hcakk/Desktop/Projeler/Softito/YuvamHazir.Infrastructure/bin/Debug/net7.0/YuvamHazir.Infrastructure.dll
@@ -86,3 +85,5 @@ C:/Users/hcakk/Desktop/Projeler/Softito/YuvamHazir.Infrastructure/obj/Debug/net7
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Infrastructure/obj/Debug/net7.0/YuvamHazir.Infrastructure.pdb
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Infrastructure/obj/Debug/net7.0/YuvamHazir.Infrastructure.genruntimeconfig.cache
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Infrastructure/obj/Debug/net7.0/ref/YuvamHazir.Infrastructure.dll
+/Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Infrastructure/obj/Debug/net7.0/YuvamHazir.Infrastructure.sourcelink.json
+/Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Infrastructure/obj/Debug/net7.0/YuvamHaz.4FCDD9AF.Up2Date

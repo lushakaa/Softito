@@ -4,6 +4,8 @@ using YuvamHazir.Domain.Entities;
 using YuvamHazir.Infrastructure.Context;
 using YuvamHazir.API.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
+using static OpenAI.ObjectModels.StaticValues.AssistantsStatics.MessageStatics;
 
 namespace YuvamHazir.API.Controllers
 {
@@ -43,8 +45,9 @@ namespace YuvamHazir.API.Controllers
             return Ok(pets);
         }
 
-       // POST: api/pet
-[HttpPost]
+        // POST: api/pet
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
 public async Task<IActionResult> AddPet([FromBody] PetCreateDto petDto)
 {
     if (!string.IsNullOrWhiteSpace(petDto.Description))
