@@ -52,7 +52,6 @@ C:/Users/hcakk/Desktop/Projeler/Softito/YuvamHazir.Domain/obj/Debug/net7.0/ref/Y
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.AssemblyInfoInputs.cache
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.AssemblyInfo.cs
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.csproj.CoreCompileInputs.cache
-/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.sourcelink.json
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.dll
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/refint/YuvamHazir.Domain.dll
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.pdb
@@ -82,3 +81,4 @@ C:/Users/hcakk/Desktop/Projeler/Softito/YuvamHazir.Domain/obj/Debug/net7.0/ref/Y
 /Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Domain/obj/Debug/net7.0/ref/YuvamHazir.Domain.dll
 /Users/a1-18/Documents/GitHub/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.csproj.AssemblyReference.cache
 /Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.sourcelink.json
+/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/obj/Debug/net7.0/YuvamHazir.Domain.sourcelink.json

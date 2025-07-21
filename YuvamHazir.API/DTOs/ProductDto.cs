@@ -12,8 +12,9 @@ namespace YuvamHazir.API.DTOs
             public int Stock { get; set; }
             public string CategoryName { get; set; }
             public string Description { get; set; }
+            public string ImageUrl { get; set; }
 
-            public double? AverageRating { get; set; } // <-- Bunu ekle
+            public double? AverageRating { get; set; }
         }
 
 

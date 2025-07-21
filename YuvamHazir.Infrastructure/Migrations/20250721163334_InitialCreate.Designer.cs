@@ -12,7 +12,7 @@ using YuvamHazir.Infrastructure.Context;
 namespace YuvamHazir.Infrastructure.Migrations
 {
     [DbContext(typeof(YuvamHazirDbContext))]
-    [Migration("20250720173403_InitialCreate")]
+    [Migration("20250721163334_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

@@ -70,8 +70,6 @@ C:/Users/hcakk/Desktop/Projeler/Softito/YuvamHazir.Application/obj/Debug/net7.0/
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/obj/Debug/net7.0/YuvamHazir.Application.AssemblyInfoInputs.cache
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/obj/Debug/net7.0/YuvamHazir.Application.AssemblyInfo.cs
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/obj/Debug/net7.0/YuvamHazir.Application.csproj.CoreCompileInputs.cache
-/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/obj/Debug/net7.0/YuvamHazir.Application.sourcelink.json
-/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/obj/Debug/net7.0/YuvamHaz.78F85AD2.Up2Date
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/obj/Debug/net7.0/YuvamHazir.Application.dll
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/obj/Debug/net7.0/refint/YuvamHazir.Application.dll
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/obj/Debug/net7.0/YuvamHazir.Application.pdb
@@ -108,3 +106,5 @@ C:/Users/hcakk/Desktop/Projeler/Softito/YuvamHazir.Application/obj/Debug/net7.0/
 /Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Application/obj/Debug/net7.0/ref/YuvamHazir.Application.dll
 /Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Application/obj/Debug/net7.0/YuvamHazir.Application.sourcelink.json
 /Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Application/obj/Debug/net7.0/YuvamHaz.78F85AD2.Up2Date
+/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/obj/Debug/net7.0/YuvamHazir.Application.sourcelink.json
+/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/obj/Debug/net7.0/YuvamHaz.78F85AD2.Up2Date

@@ -1,33 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "/Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Application/YuvamHazir.Application.csproj": {}
+    "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/YuvamHazir.Application.csproj": {}
   },
   "projects": {
-    "/Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Application/YuvamHazir.Application.csproj": {
+    "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/YuvamHazir.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Application/YuvamHazir.Application.csproj",
+        "projectUniqueName": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/YuvamHazir.Application.csproj",
         "projectName": "YuvamHazir.Application",
-        "projectPath": "/Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Application/YuvamHazir.Application.csproj",
-        "packagesPath": "/Users/a1-16/.nuget/packages/",
-        "outputPath": "/Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Application/obj/",
+        "projectPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/YuvamHazir.Application.csproj",
+        "packagesPath": "/Users/hilalcakmak/.nuget/packages/",
+        "outputPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/a1-16/.nuget/NuGet/NuGet.Config"
+          "/Users/hilalcakmak/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj": {
-                "projectPath": "/Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj"
+              "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj": {
+                "projectPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj"
               }
             }
           }
@@ -41,7 +42,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net7.0": {
@@ -62,26 +64,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.410/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj": {
+    "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj",
+        "projectUniqueName": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj",
         "projectName": "YuvamHazir.Domain",
-        "projectPath": "/Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj",
-        "packagesPath": "/Users/a1-16/.nuget/packages/",
-        "outputPath": "/Users/a1-16/Desktop/gitprojects/Softito/YuvamHazir.Domain/obj/",
+        "projectPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj",
+        "packagesPath": "/Users/hilalcakmak/.nuget/packages/",
+        "outputPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/a1-16/.nuget/NuGet/NuGet.Config"
+          "/Users/hilalcakmak/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -99,7 +102,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net7.0": {
@@ -120,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.410/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }

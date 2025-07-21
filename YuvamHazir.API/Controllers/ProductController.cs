@@ -43,6 +43,7 @@ namespace YuvamHazir.API.Controllers
                 Stock = p.Stock,
                 CategoryName = p.Category?.Name,
                 Description = p.Description,
+                ImageUrl = p.ImageUrl,
                 AverageRating = ratings.FirstOrDefault(r => r.ProductId == p.Id)?.Average
             }).ToList();
 

@@ -107,7 +107,6 @@ C:/Users/hcakk/Desktop/Projeler/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/Y
 C:/Users/hcakk/Desktop/Projeler/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/ref/YuvamHazir.dll
 /Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/bin/Debug/net7.0/appsettings.Development.json
 /Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/bin/Debug/net7.0/appsettings.json
-/Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/bin/Debug/net7.0/YuvamHazir.staticwebassets.endpoints.json
 /Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/bin/Debug/net7.0/YuvamHazir
 /Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/bin/Debug/net7.0/YuvamHazir.deps.json
 /Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/bin/Debug/net7.0/YuvamHazir.runtimeconfig.json
@@ -118,13 +117,10 @@ C:/Users/hcakk/Desktop/Projeler/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/r
 /Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/YuvamHazir.AssemblyInfo.cs
 /Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/YuvamHazir.csproj.CoreCompileInputs.cache
 /Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/YuvamHazir.MvcApplicationPartsAssemblyInfo.cache
-/Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/YuvamHazir.sourcelink.json
 /Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/scopedcss/bundle/YuvamHazir.styles.css
 /Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/staticwebassets.build.json
 /Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/staticwebassets.development.json
-/Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/staticwebassets.build.endpoints.json
 /Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/staticwebassets/msbuild.YuvamHazir.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/staticwebassets/msbuild.YuvamHazir.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 /Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/staticwebassets/msbuild.build.YuvamHazir.props
 /Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.YuvamHazir.props
 /Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.YuvamHazir.props
@@ -186,3 +182,4 @@ C:/Users/hcakk/Desktop/Projeler/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/r
 /Users/a1-16/Desktop/gitprojects/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/YuvamHazir.pdb
 /Users/a1-16/Desktop/gitprojects/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/YuvamHazir.genruntimeconfig.cache
 /Users/a1-16/Desktop/gitprojects/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/ref/YuvamHazir.dll
+/Users/hilalcakmak/Desktop/Softito/BitirmeProjesiSoftIto/obj/Debug/net7.0/YuvamHazir.csproj.AssemblyReference.cache
