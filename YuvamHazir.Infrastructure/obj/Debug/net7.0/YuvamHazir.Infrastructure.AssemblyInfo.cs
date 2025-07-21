@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YuvamHazir.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec6f0d9bf405241f8ba18353fea31caf9e79a78e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60957906d90fb4eda5834b9ca61958053190e9a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("YuvamHazir.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YuvamHazir.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
