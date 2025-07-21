@@ -12,8 +12,8 @@ using YuvamHazir.Infrastructure.Context;
 namespace YuvamHazir.Infrastructure.Migrations
 {
     [DbContext(typeof(YuvamHazirDbContext))]
-    [Migration("20250719193353_AddMissingEntities")]
-    partial class AddMissingEntities
+    [Migration("20250720173403_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -593,6 +593,10 @@ namespace YuvamHazir.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Breed")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

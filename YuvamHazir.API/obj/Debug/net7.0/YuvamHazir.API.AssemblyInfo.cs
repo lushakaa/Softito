@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YuvamHazir.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e6d417e0e7128333f13151fc65557ea662b8d61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f186634787c1c25d38b20875b8ef1d4339aab88")]
 [assembly: System.Reflection.AssemblyProductAttribute("YuvamHazir.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YuvamHazir.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

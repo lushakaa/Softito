@@ -215,8 +215,9 @@ namespace YuvamHazir.Infrastructure.Context
             modelBuilder.Entity<Pet>()
                 .HasOne(p => p.Owner)
                 .WithMany(u => u.Pets)
-                .HasForeignKey("OwnerId")
+                .HasForeignKey(p => p.OwnerId)
                 .OnDelete(DeleteBehavior.Restrict);
+                
         }
     }
 }

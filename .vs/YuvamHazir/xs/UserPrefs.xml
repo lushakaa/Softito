@@ -1,30 +1,32 @@
 ﻿<Properties StartupConfiguration="{FF9A8EC4-DF7C-40F6-8833-E5A730A292C9}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.YuvamHazir PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="YuvamHazir.Domain/Entities/Pet.cs">
+    <Files>
+      <File FileName="YuvamHazir.Domain/Entities/Pet.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="YuvamHazir">
-            <Node name="YuvamHazir" expanded="True">
+            <Node name="YuvamHazir">
               <Node name="Dependencies" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="appsettings.json" selected="True" />
             </Node>
-            <Node name="YuvamHazir.API">
-              <Node name="DTOs" expanded="True" />
-            </Node>
-            <Node name="YuvamHazir.Domain" expanded="True">
+            <Node name="YuvamHazir.Domain">
               <Node name="Entities" expanded="True" />
+            </Node>
+            <Node name="YuvamHazir.Infrastructure" expanded="True">
+              <Node name="Migrations" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

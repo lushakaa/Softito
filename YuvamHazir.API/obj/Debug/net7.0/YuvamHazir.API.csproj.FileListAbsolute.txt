@@ -340,6 +340,7 @@ C:/Users/hcakk/Desktop/Projeler/Softito/YuvamHazir.API/obj/Debug/net7.0/ref/Yuva
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.API/bin/Debug/net7.0/YuvamHazir.API.pdb
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.API/bin/Debug/net7.0/Azure.Core.dll
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.API/bin/Debug/net7.0/Azure.Identity.dll
+/Users/hilalcakmak/Desktop/Softito/YuvamHazir.API/bin/Debug/net7.0/OpenAI.dll
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.API/bin/Debug/net7.0/Humanizer.dll
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.API/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/hilalcakmak/Desktop/Softito/YuvamHazir.API/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll

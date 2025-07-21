@@ -4,6 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using YuvamHazir.Infrastructure.Context;
 using Microsoft.OpenApi.Models;
+using YuvamHazir.API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -56,6 +57,8 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 });
+
+builder.Services.AddScoped<OpenAiService>();
 
 var app = builder.Build();
 

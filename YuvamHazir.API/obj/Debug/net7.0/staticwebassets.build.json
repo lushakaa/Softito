@@ -1,1 +1,12 @@
-{"Version":1,"Hash":"iZSqL5zf4yF265EwAno+ibLwNiX+irtjfQfTE+/Uljw=","Source":"YuvamHazir.API","BasePath":"_content/YuvamHazir.API","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "iZSqL5zf4yF265EwAno+ibLwNiX+irtjfQfTE+/Uljw=",
+  "Source": "YuvamHazir.API",
+  "BasePath": "_content/YuvamHazir.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
