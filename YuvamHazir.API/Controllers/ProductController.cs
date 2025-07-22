@@ -135,5 +135,38 @@ namespace YuvamHazir.API.Controllers
 
             return NoContent();
         }
+
+        // Ürün ara
+        [HttpGet("search")]
+        public async Task<ActionResult<List<ProductListDto>>> SearchProducts([FromQuery] string query)
+        {
+            var products = await _context.Products
+                .Include(p => p.Category)
+                .Where(p => p.Name.Contains(query) || p.Description.Contains(query))
+                .ToListAsync();
+
+            var ratings = await _context.Set<ProductRating>()
+                .GroupBy(r => r.ProductId)
+                .Select(g => new
+                {
+                    ProductId = g.Key,
+                    Average = g.Average(r => r.Rating)
+                }).ToListAsync();
+
+            var dtoList = products.Select(p => new ProductListDto
+            {
+                Id = p.Id,
+                Name = p.Name,
+                Price = p.Price,
+                Stock = p.Stock,
+                CategoryName = p.Category?.Name,
+                Description = p.Description,
+                ImageUrl = p.ImageUrl,
+                AverageRating = ratings.FirstOrDefault(r => r.ProductId == p.Id)?.Average
+            }).ToList();
+
+            return Ok(dtoList);
+        }
+
     }
 }

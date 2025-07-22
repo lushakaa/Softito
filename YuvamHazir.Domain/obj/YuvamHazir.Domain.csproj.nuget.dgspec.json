@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj": {}
+    "D:\\products\\Softito\\YuvamHazir.Domain\\YuvamHazir.Domain.csproj": {}
   },
   "projects": {
-    "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj": {
+    "D:\\products\\Softito\\YuvamHazir.Domain\\YuvamHazir.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj",
+        "projectUniqueName": "D:\\products\\Softito\\YuvamHazir.Domain\\YuvamHazir.Domain.csproj",
         "projectName": "YuvamHazir.Domain",
-        "projectPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/YuvamHazir.Domain.csproj",
-        "packagesPath": "/Users/hilalcakmak/.nuget/packages/",
-        "outputPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Domain/obj/",
+        "projectPath": "D:\\products\\Softito\\YuvamHazir.Domain\\YuvamHazir.Domain.csproj",
+        "packagesPath": "C:\\Users\\atesu\\.nuget\\packages\\",
+        "outputPath": "D:\\products\\Softito\\YuvamHazir.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/hilalcakmak/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\atesu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net7.0": {
@@ -60,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

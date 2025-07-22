@@ -20,4 +20,10 @@ namespace YuvamHazir.API.DTOs
         public string CouponCode { get; set; }
         public List<CartItemDto> Items { get; set; }
     }
+
+    public class QuantityDto
+    {
+        public int Quantity { get; set; }
+    }
+
 }

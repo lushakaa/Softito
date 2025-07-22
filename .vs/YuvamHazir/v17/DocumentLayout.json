@@ -1,62 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\",
+  "WorkspaceRootPath": "D:\\products\\Softito\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|c:\\users\\hcakk\\desktop\\projeler\\softito\\yuvamhazir.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54BDA993-24E4-40D3-9A73-C8A8FA39540D}|YuvamHazir.Infrastructure\\YuvamHazir.Infrastructure.csproj|c:\\users\\hcakk\\desktop\\projeler\\softito\\yuvamhazir.infrastructure\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54BDA993-24E4-40D3-9A73-C8A8FA39540D}|YuvamHazir.Infrastructure\\YuvamHazir.Infrastructure.csproj|solutionrelative:yuvamhazir.infrastructure\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|c:\\users\\hcakk\\desktop\\projeler\\softito\\yuvamhazir.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|c:\\users\\hcakk\\desktop\\projeler\\softito\\yuvamhazir.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|c:\\users\\hcakk\\desktop\\projeler\\softito\\yuvamhazir.api\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54BDA993-24E4-40D3-9A73-C8A8FA39540D}|YuvamHazir.Infrastructure\\YuvamHazir.Infrastructure.csproj|c:\\users\\hcakk\\desktop\\projeler\\softito\\yuvamhazir.infrastructure\\context\\yuvamhazirdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54BDA993-24E4-40D3-9A73-C8A8FA39540D}|YuvamHazir.Infrastructure\\YuvamHazir.Infrastructure.csproj|solutionrelative:yuvamhazir.infrastructure\\context\\yuvamhazirdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|c:\\users\\hcakk\\desktop\\projeler\\softito\\yuvamhazir.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|c:\\users\\hcakk\\desktop\\projeler\\softito\\yuvamhazir.api\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|d:\\products\\softito\\yuvamhazir.api\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D10CF352-9A84-4590-8F76-D007C0164CF6}|YuvamHazir.Domain\\YuvamHazir.Domain.csproj|c:\\users\\hcakk\\desktop\\projeler\\softito\\yuvamhazir.domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|d:\\products\\softito\\yuvamhazir.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10CF352-9A84-4590-8F76-D007C0164CF6}|YuvamHazir.Domain\\YuvamHazir.Domain.csproj|d:\\products\\softito\\yuvamhazir.domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D10CF352-9A84-4590-8F76-D007C0164CF6}|YuvamHazir.Domain\\YuvamHazir.Domain.csproj|solutionrelative:yuvamhazir.domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D10CF352-9A84-4590-8F76-D007C0164CF6}|YuvamHazir.Domain\\YuvamHazir.Domain.csproj|c:\\users\\hcakk\\desktop\\projeler\\softito\\yuvamhazir.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D10CF352-9A84-4590-8F76-D007C0164CF6}|YuvamHazir.Domain\\YuvamHazir.Domain.csproj|d:\\products\\softito\\yuvamhazir.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D10CF352-9A84-4590-8F76-D007C0164CF6}|YuvamHazir.Domain\\YuvamHazir.Domain.csproj|solutionrelative:yuvamhazir.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|c:\\users\\hcakk\\desktop\\projeler\\softito\\yuvamhazir.api\\dtos\\adressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D10CF352-9A84-4590-8F76-D007C0164CF6}|YuvamHazir.Domain\\YuvamHazir.Domain.csproj|d:\\products\\softito\\yuvamhazir.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10CF352-9A84-4590-8F76-D007C0164CF6}|YuvamHazir.Domain\\YuvamHazir.Domain.csproj|solutionrelative:yuvamhazir.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|d:\\products\\softito\\yuvamhazir.api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|d:\\products\\softito\\yuvamhazir.api\\controllers\\petcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\controllers\\petcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|d:\\products\\softito\\yuvamhazir.api\\dtos\\petdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\dtos\\petdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|d:\\products\\softito\\yuvamhazir.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|d:\\products\\softito\\yuvamhazir.api\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|d:\\products\\softito\\yuvamhazir.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54BDA993-24E4-40D3-9A73-C8A8FA39540D}|YuvamHazir.Infrastructure\\YuvamHazir.Infrastructure.csproj|d:\\products\\softito\\yuvamhazir.infrastructure\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54BDA993-24E4-40D3-9A73-C8A8FA39540D}|YuvamHazir.Infrastructure\\YuvamHazir.Infrastructure.csproj|solutionrelative:yuvamhazir.infrastructure\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|d:\\products\\softito\\yuvamhazir.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|d:\\products\\softito\\yuvamhazir.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|d:\\products\\softito\\yuvamhazir.api\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54BDA993-24E4-40D3-9A73-C8A8FA39540D}|YuvamHazir.Infrastructure\\YuvamHazir.Infrastructure.csproj|d:\\products\\softito\\yuvamhazir.infrastructure\\context\\yuvamhazirdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54BDA993-24E4-40D3-9A73-C8A8FA39540D}|YuvamHazir.Infrastructure\\YuvamHazir.Infrastructure.csproj|solutionrelative:yuvamhazir.infrastructure\\context\\yuvamhazirdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|d:\\products\\softito\\yuvamhazir.api\\dtos\\adressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\dtos\\adressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|c:\\users\\hcakk\\desktop\\projeler\\softito\\yuvamhazir.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|d:\\products\\softito\\yuvamhazir.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|c:\\users\\hcakk\\desktop\\projeler\\softito\\yuvamhazir.api\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|d:\\products\\softito\\yuvamhazir.api\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|c:\\users\\hcakk\\desktop\\projeler\\softito\\yuvamhazir.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{976D963E-70AB-4E08-8683-F9B46F6308D3}|YuvamHazir.API\\YuvamHazir.API.csproj|solutionrelative:yuvamhazir.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,102 +86,155 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\appsettings.json",
-              "RelativeDocumentMoniker": "YuvamHazir.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\appsettings.json",
-              "RelativeToolTip": "YuvamHazir.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-19T20:20:07.894Z",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "YuvamHazir.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "YuvamHazir.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA9wCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T20:37:37.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DesignTimeDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.Infrastructure\\DesignTimeDbContextFactory.cs",
-              "RelativeDocumentMoniker": "YuvamHazir.Infrastructure\\DesignTimeDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.Infrastructure\\DesignTimeDbContextFactory.cs",
-              "RelativeToolTip": "YuvamHazir.Infrastructure\\DesignTimeDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.API\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "YuvamHazir.API\\DTOs\\UserDto.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.API\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "YuvamHazir.API\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T20:19:56.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\Program.cs",
-              "RelativeDocumentMoniker": "YuvamHazir.API\\Program.cs",
-              "ToolTip": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\Program.cs",
-              "RelativeToolTip": "YuvamHazir.API\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T18:30:30.178Z",
+              "WhenOpened": "2025-07-22T20:37:03.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "YuvamHazir.API\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\Controllers\\CartController.cs",
-              "RelativeToolTip": "YuvamHazir.API\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAowH0AAAA9AAAAAAAAAA==",
+              "Title": "PetController.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.API\\Controllers\\PetController.cs",
+              "RelativeDocumentMoniker": "YuvamHazir.API\\Controllers\\PetController.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.API\\Controllers\\PetController.cs",
+              "RelativeToolTip": "YuvamHazir.API\\Controllers\\PetController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAmwDAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T18:18:11.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.Domain\\Entities\\CartItem.cs",
-              "RelativeDocumentMoniker": "YuvamHazir.Domain\\Entities\\CartItem.cs",
-              "ToolTip": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.Domain\\Entities\\CartItem.cs",
-              "RelativeToolTip": "YuvamHazir.Domain\\Entities\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T18:16:31.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.Domain\\Entities\\Cart.cs",
-              "RelativeDocumentMoniker": "YuvamHazir.Domain\\Entities\\Cart.cs",
-              "ToolTip": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.Domain\\Entities\\Cart.cs",
-              "RelativeToolTip": "YuvamHazir.Domain\\Entities\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T18:16:27.863Z"
+              "WhenOpened": "2025-07-22T20:35:37.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "CartDto.cs",
-              "DocumentMoniker": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\DTOs\\CartDto.cs",
-              "RelativeDocumentMoniker": "YuvamHazir.API\\DTOs\\CartDto.cs",
-              "ToolTip": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\DTOs\\CartDto.cs",
-              "RelativeToolTip": "YuvamHazir.API\\DTOs\\CartDto.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA9wAgAAAAvAAAAAAAAAA==",
+              "Title": "PetDto.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.API\\DTOs\\PetDto.cs",
+              "RelativeDocumentMoniker": "YuvamHazir.API\\DTOs\\PetDto.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.API\\DTOs\\PetDto.cs",
+              "RelativeToolTip": "YuvamHazir.API\\DTOs\\PetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T18:15:30.509Z"
+              "WhenOpened": "2025-07-22T20:35:13.826Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.API\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "YuvamHazir.API\\DTOs\\ProductDto.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.API\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "YuvamHazir.API\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:52:17.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.API\\appsettings.json",
+              "RelativeDocumentMoniker": "YuvamHazir.API\\appsettings.json",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.API\\appsettings.json",
+              "RelativeToolTip": "YuvamHazir.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-19T20:20:07.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.API\\Program.cs",
+              "RelativeDocumentMoniker": "YuvamHazir.API\\Program.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.API\\Program.cs",
+              "RelativeToolTip": "YuvamHazir.API\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T18:30:30.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.API\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "YuvamHazir.API\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.API\\Controllers\\CartController.cs",
+              "RelativeToolTip": "YuvamHazir.API\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAIwHkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T18:18:11.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.Domain\\Entities\\CartItem.cs",
+              "RelativeDocumentMoniker": "YuvamHazir.Domain\\Entities\\CartItem.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.Domain\\Entities\\CartItem.cs",
+              "RelativeToolTip": "YuvamHazir.Domain\\Entities\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T18:16:31.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.Domain\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "YuvamHazir.Domain\\Entities\\Cart.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.Domain\\Entities\\Cart.cs",
+              "RelativeToolTip": "YuvamHazir.Domain\\Entities\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T18:16:27.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartDto.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.API\\DTOs\\CartDto.cs",
+              "RelativeDocumentMoniker": "YuvamHazir.API\\DTOs\\CartDto.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.API\\DTOs\\CartDto.cs",
+              "RelativeToolTip": "YuvamHazir.API\\DTOs\\CartDto.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T18:15:30.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "YuvamHazirDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.Infrastructure\\Context\\YuvamHazirDbContext.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.Infrastructure\\Context\\YuvamHazirDbContext.cs",
               "RelativeDocumentMoniker": "YuvamHazir.Infrastructure\\Context\\YuvamHazirDbContext.cs",
-              "ToolTip": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.Infrastructure\\Context\\YuvamHazirDbContext.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.Infrastructure\\Context\\YuvamHazirDbContext.cs",
               "RelativeToolTip": "YuvamHazir.Infrastructure\\Context\\YuvamHazirDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -169,11 +242,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "AddressController.cs",
-              "DocumentMoniker": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\Controllers\\AddressController.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.API\\Controllers\\AddressController.cs",
               "RelativeDocumentMoniker": "YuvamHazir.API\\Controllers\\AddressController.cs",
-              "ToolTip": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\Controllers\\AddressController.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.API\\Controllers\\AddressController.cs",
               "RelativeToolTip": "YuvamHazir.API\\Controllers\\AddressController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -181,11 +254,36 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "YuvamHazir.API\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "YuvamHazir.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAmwJ8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T18:02:21.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "DesignTimeDbContextFactory.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.Infrastructure\\DesignTimeDbContextFactory.cs",
+              "RelativeDocumentMoniker": "YuvamHazir.Infrastructure\\DesignTimeDbContextFactory.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.Infrastructure\\DesignTimeDbContextFactory.cs",
+              "RelativeToolTip": "YuvamHazir.Infrastructure\\DesignTimeDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T20:19:56.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\Controllers\\CategoryController.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.API\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "YuvamHazir.API\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.API\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "YuvamHazir.API\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -193,11 +291,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "CategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\DTOs\\CategoryDto.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.API\\DTOs\\CategoryDto.cs",
               "RelativeDocumentMoniker": "YuvamHazir.API\\DTOs\\CategoryDto.cs",
-              "ToolTip": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\DTOs\\CategoryDto.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.API\\DTOs\\CategoryDto.cs",
               "RelativeToolTip": "YuvamHazir.API\\DTOs\\CategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -205,11 +303,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "YuvamHazir.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "YuvamHazir.API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAxwBwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -217,27 +315,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "AdressDto.cs",
-              "DocumentMoniker": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\DTOs\\AdressDto.cs",
+              "DocumentMoniker": "D:\\products\\Softito\\YuvamHazir.API\\DTOs\\AdressDto.cs",
               "RelativeDocumentMoniker": "YuvamHazir.API\\DTOs\\AdressDto.cs",
-              "ToolTip": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\DTOs\\AdressDto.cs",
+              "ToolTip": "D:\\products\\Softito\\YuvamHazir.API\\DTOs\\AdressDto.cs",
               "RelativeToolTip": "YuvamHazir.API\\DTOs\\AdressDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-19T18:03:24.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "YuvamHazir.API\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\hcakk\\Desktop\\Projeler\\Softito\\YuvamHazir.API\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "YuvamHazir.API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAgwHUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T18:02:21.018Z"
             }
           ]
         }

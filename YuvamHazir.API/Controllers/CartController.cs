@@ -106,8 +106,11 @@ namespace YuvamHazir.API.Controllers
 
         // Sepette ürün miktarını güncelle
         [HttpPut("{userId}/update/{cartItemId}")]
-        public async Task<ActionResult> UpdateCartItem(int userId, int cartItemId, [FromBody] int quantity)
+        public async Task<ActionResult> UpdateCartItem(int userId, int cartItemId, [FromBody] QuantityDto dto)
         {
+            if (dto.Quantity < 1)
+                return BadRequest("Quantity must be at least 1.");
+
             var cart = await _context.Carts.Include(c => c.CartItems)
                 .FirstOrDefaultAsync(c => c.UserId == userId);
 
@@ -116,10 +119,11 @@ namespace YuvamHazir.API.Controllers
             var item = cart.CartItems.FirstOrDefault(ci => ci.Id == cartItemId);
             if (item == null) return NotFound();
 
-            item.Quantity = quantity;
+            item.Quantity = dto.Quantity;
             await _context.SaveChangesAsync();
             return NoContent();
         }
+
 
         // Sepeti tamamen boşalt
         [HttpDelete("{userId}/clear")]

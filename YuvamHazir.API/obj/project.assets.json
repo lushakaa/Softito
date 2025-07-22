@@ -3661,36 +3661,42 @@
     ]
   },
   "packageFolders": {
-    "/Users/hilalcakmak/.nuget/packages/": {}
+    "C:\\Users\\atesu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.API/YuvamHazir.API.csproj",
+      "projectUniqueName": "D:\\products\\Softito\\YuvamHazir.API\\YuvamHazir.API.csproj",
       "projectName": "YuvamHazir.API",
-      "projectPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.API/YuvamHazir.API.csproj",
-      "packagesPath": "/Users/hilalcakmak/.nuget/packages/",
-      "outputPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.API/obj/",
+      "projectPath": "D:\\products\\Softito\\YuvamHazir.API\\YuvamHazir.API.csproj",
+      "packagesPath": "C:\\Users\\atesu\\.nuget\\packages\\",
+      "outputPath": "D:\\products\\Softito\\YuvamHazir.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/hilalcakmak/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\atesu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/YuvamHazir.Application.csproj": {
-              "projectPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Application/YuvamHazir.Application.csproj"
+            "D:\\products\\Softito\\YuvamHazir.Application\\YuvamHazir.Application.csproj": {
+              "projectPath": "D:\\products\\Softito\\YuvamHazir.Application\\YuvamHazir.Application.csproj"
             },
-            "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Infrastructure/YuvamHazir.Infrastructure.csproj": {
-              "projectPath": "/Users/hilalcakmak/Desktop/Softito/YuvamHazir.Infrastructure/YuvamHazir.Infrastructure.csproj"
+            "D:\\products\\Softito\\YuvamHazir.Infrastructure\\YuvamHazir.Infrastructure.csproj": {
+              "projectPath": "D:\\products\\Softito\\YuvamHazir.Infrastructure\\YuvamHazir.Infrastructure.csproj"
             }
           }
         }
@@ -3705,7 +3711,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net7.0": {
@@ -3753,7 +3759,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
