@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using YuvamHazir.Infrastructure.Context;
 
@@ -11,9 +12,11 @@ using YuvamHazir.Infrastructure.Context;
 namespace YuvamHazir.Infrastructure.Migrations
 {
     [DbContext(typeof(YuvamHazirDbContext))]
-    partial class YuvamHazirDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250723110816_AddFavoriteEntity")]
+    partial class AddFavoriteEntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

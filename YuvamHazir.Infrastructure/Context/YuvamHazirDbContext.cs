@@ -36,7 +36,9 @@ namespace YuvamHazir.Infrastructure.Context
         public DbSet<PatiPoint> PatiPoints { get; set; }
         public DbSet<QuestionCategory> QuestionCategories { get; set; }
         public DbSet<Badge> Badges { get; set; }
-        
+        public DbSet<Favorite> Favorites { get; set; }
+
+
 
         // Diğer DbSet'ler buraya eklenebilir
 
