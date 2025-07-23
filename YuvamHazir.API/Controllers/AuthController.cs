@@ -7,6 +7,7 @@ using YuvamHazir.Domain.Entities;
 using YuvamHazir.Infrastructure.Context;
 using YuvamHazir.API.DTOs;
 using static YuvamHazir.API.DTOs.UserDto;
+using Microsoft.AspNetCore.Authorization;
 
 namespace YuvamHazir.API.Controllers
 {
@@ -78,6 +79,54 @@ namespace YuvamHazir.API.Controllers
             };
 
             return Ok(response);
+        }
+
+        [HttpGet("me")]
+        [Authorize]
+        public IActionResult Me()
+        {
+            // Kullanıcıyı token'dan bul
+            var email = User.FindFirstValue(ClaimTypes.Email);
+            var user = _context.Users.FirstOrDefault(u => u.Email == email);
+
+            if (user == null)
+                return NotFound("Kullanıcı bulunamadı");
+
+            var userDto = new UserDetailDto
+            {
+                Id = user.Id,
+                FullName = user.FullName,
+                Email = user.Email,
+                PhoneNumber = user.PhoneNumber,
+                TotalPatiPoints = user.TotalPatiPoints
+            };
+
+            return Ok(userDto);
+        }
+
+        [HttpPut("update")]
+        public IActionResult UpdateProfile([FromBody] UserUpdateDto dto)
+        {
+            var email = User.FindFirstValue(ClaimTypes.Email);
+            var user = _context.Users.FirstOrDefault(u => u.Email == email);
+            if (user == null)
+                return NotFound("Kullanıcı bulunamadı");
+
+            user.FullName = dto.FullName;
+            user.PhoneNumber = dto.PhoneNumber;
+            user.Email = dto.Email;
+            _context.SaveChanges();
+
+            var userDetail = new UserDetailDto
+            {
+                Id = user.Id,
+                FullName = user.FullName,
+                Email = user.Email,
+                PhoneNumber = user.PhoneNumber,
+                TotalPatiPoints = user.TotalPatiPoints
+            };
+
+            return Ok(userDetail);
         }
     }
 }

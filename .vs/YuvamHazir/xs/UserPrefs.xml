@@ -1,45 +1,55 @@
 ﻿<Properties StartupConfiguration="{FF9A8EC4-DF7C-40F6-8833-E5A730A292C9}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="YuvamHazir.API/Controllers/ProductController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.YuvamHazir PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="YuvamHazir.Infrastructure/DesignTimeDbContextFactory.cs">
     <Files>
       <File FileName="YuvamHazir.Domain/Entities/Pet.cs" />
-      <File FileName="YuvamHazir.Domain/Entities/User.cs" />
-      <File FileName="YuvamHazir.API/DTOs/UserDto.cs" />
-      <File FileName="YuvamHazir.API/Program.cs" Line="68" Column="7" />
-      <File FileName="YuvamHazir.API/Controllers/AuthController.cs" />
-      <File FileName="YuvamHazir.API/appsettings.json" Line="18" Column="5" />
-      <File FileName="YuvamHazir.API/Controllers/ProductController.cs" Line="46" Column="35" />
-      <File FileName="YuvamHazir.API/DTOs/ProductRatingDto.cs" Line="15" Column="1" />
-      <File FileName="YuvamHazir.API/Controllers/ProductRatingController.cs" Line="12" Column="6" />
-      <File FileName="YuvamHazir.API/DTOs/ProductDto.cs" Line="25" Column="36" />
+      <File FileName="YuvamHazir.Domain/Entities/User.cs" Line="1" Column="1" />
+      <File FileName="YuvamHazir.API/DTOs/UserDto.cs" Line="25" Column="10" />
+      <File FileName="YuvamHazir.API/Program.cs" Line="47" Column="10" />
+      <File FileName="YuvamHazir.API/Controllers/AuthController.cs" Line="26" Column="1" />
+      <File FileName="YuvamHazir.API/appsettings.json" Line="20" Column="5" />
+      <File FileName="YuvamHazir.API/Controllers/ProductController.cs" />
+      <File FileName="YuvamHazir.API/DTOs/ProductRatingDto.cs" />
+      <File FileName="YuvamHazir.API/Controllers/ProductRatingController.cs" />
+      <File FileName="YuvamHazir.API/DTOs/ProductDto.cs" />
       <File FileName="YuvamHazir.API/Controllers/OrderController.cs" Line="1" Column="1" />
-      <File FileName="YuvamHazir.API/Controllers/PetController.cs" Line="1" Column="1" />
-      <File FileName="YuvamHazir.Infrastructure/Context/YuvamHazirDbContext.cs" Line="38" Column="49" />
+      <File FileName="YuvamHazir.API/Controllers/PetController.cs" />
+      <File FileName="YuvamHazir.Infrastructure/Context/YuvamHazirDbContext.cs" Line="16" Column="55" />
+      <File FileName="YuvamHazir.API/DTOs/CartDto.cs" />
+      <File FileName="YuvamHazir.Domain/Entities/Cart.cs" Line="15" Column="2" />
+      <File FileName="YuvamHazir.Domain/Entities/CartItem.cs" />
+      <File FileName="YuvamHazir.API/Controllers/CartController.cs" />
+      <File FileName="YuvamHazir.API/Controllers/AddressController.cs" Line="1" Column="1" />
+      <File FileName="BitirmeProjesiSoftIto/Program.cs" Line="1" Column="1" />
+      <File FileName="YuvamHazir.API/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="YuvamHazir.Application/Class1.cs" Line="1" Column="1" />
+      <File FileName="BitirmeProjesiSoftIto/appsettings.json" Line="1" Column="1" />
+      <File FileName="YuvamHazir.API/Services/OpenAiService.cs" Line="1" Column="1" />
+      <File FileName="YuvamHazir.API/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="YuvamHazir.Infrastructure/DesignTimeDbContextFactory.cs" Line="14" Column="149" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="YuvamHazir">
-            <Node name="YuvamHazir.API">
-              <Node name="Controllers">
-                <Node name="ProductController.cs" selected="True" />
-              </Node>
+          <Node name="YuvamHazir" expanded="True">
+            <Node name="YuvamHazir" expanded="True" />
+            <Node name="YuvamHazir.API" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DTOs" expanded="True" />
+              <Node name="Properties" expanded="True" />
             </Node>
             <Node name="YuvamHazir.Domain" expanded="True">
               <Node name="Entities" expanded="True" />
-            </Node>
-            <Node name="YuvamHazir.Infrastructure" expanded="True">
-              <Node name="Context" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.YuvamHazir PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

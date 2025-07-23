@@ -45,6 +45,12 @@ namespace YuvamHazir.API.DTOs
             public string Token { get; set; }
         }
 
+        public class UserUpdateDto
+        {
+            public string FullName { get; set; }
+            public string Email { get; set; }
+            public string PhoneNumber { get; set; }
+        }
     }
 }
 
